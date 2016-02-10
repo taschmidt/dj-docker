@@ -4,5 +4,5 @@ RUN apt-get install curl && \
     curl -sL https://deb.nodesource.com/setup_4.x | bash - && \
     apt-get install -y nodejs && \
     npm set progress=false && \
-    npm install -g gulp && \
-    npm install -g bower
+    npm install -g gulp@3.9.1 && \
+    npm install -g bower@1.7.7
