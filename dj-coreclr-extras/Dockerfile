@@ -1,7 +1,7 @@
 FROM microsoft/aspnet:1.0.0-rc1-update1-coreclr
 
 ADD ./djca-v3.pem /usr/local/share/ca-certificates/djca-v3.crt
-ADD ./NuGet.config /root/.config/NuGet/NuGet.config
+ADD ./NuGet.config /
 
 RUN update-ca-certificates --fresh && \
     apt-get install curl && \
