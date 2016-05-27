@@ -1,7 +1,6 @@
-FROM microsoft/aspnet:1.0.0-rc1-update1-coreclr
+FROM microsoft/dotnet:1.0.0-rc2-core
 
-RUN apt-get install curl && \
-    curl -sL https://deb.nodesource.com/setup_4.x | bash - && \
+RUN curl -sL https://deb.nodesource.com/setup_4.x | bash - && \
     apt-get install -y nodejs && \
     npm set progress=false && \
     npm install -g gulp@3.9.1 && \
