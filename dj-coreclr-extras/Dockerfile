@@ -1,4 +1,4 @@
-FROM taschmidt/coreclr-extras:rc2
+FROM taschmidt/coreclr-extras:1.0.1
 
 ADD ./NuGet.config /
 
