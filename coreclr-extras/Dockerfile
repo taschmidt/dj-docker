@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:1.0.0-preview1
+FROM microsoft/dotnet:1.0.1-core
 
 RUN curl -sL https://deb.nodesource.com/setup_4.x | bash - && \
     apt-get install -y nodejs && \
