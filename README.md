@@ -1,2 +1,2 @@
 # dj-docker
-Some handy docker base images
+Some handy docker base images.
