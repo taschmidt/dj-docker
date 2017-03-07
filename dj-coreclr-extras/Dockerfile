@@ -1,4 +1,4 @@
-FROM taschmidt/coreclr-extras:1.1-sdk-msbuild
+FROM mwsharedservices/coreclr-extras:1.1.1-sdk
 
 ADD ./NuGet.config /
 

@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:1.1-sdk-msbuild
+FROM microsoft/dotnet:1.1.1-sdk
 
 RUN curl -sL https://deb.nodesource.com/setup_4.x | bash - && \
     apt-get install -y nodejs && \
