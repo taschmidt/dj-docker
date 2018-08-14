@@ -1,6 +1,6 @@
 FROM node:8.11.3-alpine
 
-RUN apk update && apk add ca-certificates yarn
+RUN apk update && apk add ca-certificates yarn python
 
 # install DJ certs
 ENV CERTS="djer djsn djte djgc djdi djsc"
