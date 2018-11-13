@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:10-alpine
 
 ENV CERTS="djer djsn djte djgc djdi djsc"
 RUN apk update && \
