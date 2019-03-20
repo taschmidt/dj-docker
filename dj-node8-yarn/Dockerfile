@@ -7,7 +7,5 @@ RUN apk update && \
     update-ca-certificates && \
     yarn config set cafile /etc/ssl/certs/ca-certificates.crt && \
     npm config set cafile /etc/ssl/certs/ca-certificates.crt && \
-    yarn global add pm2 typescript ts-node nyc mocha && \
-    pm2 install typescript && \
     yarn cache clean && \
     rm -rf /var/cache/apk/*
